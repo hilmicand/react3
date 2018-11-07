@@ -30,3 +30,34 @@
     transform: rotate(360deg);
   }
 }
+
+.content_form {
+   width: 100%;
+   height: 600px;
+   margin: auto;
+}
+
+.text_ {
+   width: 43%;
+   border-radius: 4px;
+   height: 30px;
+   margin-top: 20px;
+   margin-left: auto;
+   font-size: 17px;	
+}
+
+.bt1 {
+   width: 20%;
+   margin-top: 10px;
+   height: 40px;
+   border-radius: 5px;
+}
+
+.bt_alternative {
+   width: 20%;
+   margin-left: 3%;
+   height: 40px;
+   border-radius: 5px;
+}
+
+
