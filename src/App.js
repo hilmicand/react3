@@ -29,7 +29,8 @@ class App extends Component {
   render() {
 
     var title = React.createElement('h1', {}, 'Başlık');
-    var tv = React.createElement('input', {className: 'text_', type: 'text', placeholder: "Adın nedir???", value: this.state.value, onChange: this.handleChange}, null);
+    var tv = React.createElement('input', {className: 'text_', type: 'text', placeholder: "Adın nedir???", 
+					   value: this.state.value, onChange: this.handleChange}, null);
     
     var buton = React.createElement('input', {className: 'bt1', type: 'button', value: 'Devam Et', onClick: this.handleSubmit}, null);    
     var buton_2 = <input type='button' class='bt_alternative' onClick={this.alternative} value="Alternatif"/>;
